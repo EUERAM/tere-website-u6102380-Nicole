@@ -1,3 +1,25 @@
+/* Estils generals per h3 i p */
+h3 {
+    color: var(--black);
+    font-family: "Inter", sans-serif;
+	align-self: stretch;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 50.346px; 
+}
+
+p {
+    color: var(--light-gray);
+    font-family: "Inter", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+height: 91px;
+align-self: stretch;
+}
+
 /* VAriables i estils */
 :root {
 	--white: rgba(255,255,255,1);
