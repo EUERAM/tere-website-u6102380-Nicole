@@ -176,6 +176,7 @@ header a{
 
 .download-left {
     flex: 1;
+	padding-left: 50px;
 }
 
 .download-title {
