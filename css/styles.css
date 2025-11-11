@@ -259,3 +259,25 @@ header a{
     max-width: 100%;
     height: auto;
 }
+
+/* Secció Benefits */
+.benefits-title {
+    font-size: 47px;
+    font-family: "Inter";
+    font-weight: 900;
+    line-height: 50.35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+	margin-top: 80px;
+}
+
+.benefits-green {
+    color: var(--green);
+}
+
+.benefits-black {
+    color: var(--black);
+}
+
