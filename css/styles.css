@@ -154,8 +154,11 @@ header a{
     border-radius: 5px;
     justify-content: space-between;
     display: inline-flex;
-    padding: 20px 90px 20px 45px;
-    align-items: center; /* centra verticalment els fills */
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+    align-items: center;
     gap: 127px;
 }
 
@@ -169,17 +172,15 @@ header a{
     font-weight: 400;
     line-height: 33px; /* 137.5% */
     text-align: left;
-    display: flex;
-    align-items: center; /* centra verticalment dins del seu contenidor */
     padding-left: 25px;
 }
 
 .link-form {
     display: flex;
     gap: 10px;
-    height: auto;
-    padding: 0;
-    align-items: center; /* centra verticalment els elements dins del form */
+    height: 67px;
+    padding: 38px 100px 29px 35px;
+    align-items: left;
 }
 
 .link-input {
