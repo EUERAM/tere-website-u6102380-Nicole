@@ -1,3 +1,7 @@
+body{
+    background: var(--Background, #F9F9F9);
+}
+
 /* Estils generals per h3 i p */
 h3 {
     color: var(--black);
