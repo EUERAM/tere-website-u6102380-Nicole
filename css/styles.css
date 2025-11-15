@@ -252,6 +252,8 @@ header a{
     cursor: pointer;
 }
 
+
+
 /* Three columns (stacked vertically) */
 .three-columns {
     padding: 60px 0;
@@ -268,26 +270,29 @@ header a{
     border-radius: 8px;
     overflow: visible;
 }
-.three-columns .col-number {
-    color: var(--green);
-    font-family: "Inter", sans-serif;
-    font-weight: 900;
-    font-size: 36px;
+.three-columns .col-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
     margin-bottom: 12px;
 }
+.three-columns .col-number {
+    color: #75BF7A;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 500;
+line-height: 118.8px; /* 135% */
+}
 .three-columns .col-title {
-    color: var(--black);
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    margin: 0 0 8px 0;
+    color: #000;
+font-family: Inter;
+font-size: 33.943px;
+font-style: normal;
+font-weight: 400;
+line-height: 32.5px; /* 95.749% */
 }
-.three-columns .col-text {
-    color: var(--gray);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    margin: 0;
-    max-width: 60%;
-}
+
 .three-columns .col-corner {
     position: absolute;
     width: 234px;
