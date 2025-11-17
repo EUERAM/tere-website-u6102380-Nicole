@@ -145,6 +145,22 @@ header a{
     text-decoration: none; /* treure subratllat */
 }
 
+/* Header logo styling */
+.logo {
+    display: flex;
+    align-items: center; /* vertically center with menu */
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: none;
+    width: auto;
+    height: auto;
+    max-height: 120%; /* 10px larger (approximately 10% size increase) */
+    object-fit: contain;
+}
+
 /* Header Help Center button */
 header button {
     width: 180px;
@@ -501,4 +517,8 @@ line-height: 50.346px; /* 228.847% */
     display: block;
     max-width: 200px;
     height: auto;
+}
+
+.container-flex{
+    background-color: var(--white, #F9F9F9);
 }
