@@ -260,7 +260,7 @@ header a{
     cursor: pointer;
 }
 .benefits {
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
 
@@ -408,12 +408,22 @@ font-style: normal;
 font-weight: 400;
 line-height: 32.5px; /* 95.749% */
 }
-
+.footer-note{
+    color: var(--Green, #75BF7A);
+    text-align: center;
+    /* small */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 0; /* give some vertical breathing room */
+}
 
 
 /* Strip section: full-width white rectangle with light-gray stroke */
 .strip-section {
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .strip-rect {
     width: 100%;
@@ -427,8 +437,9 @@ line-height: 32.5px; /* 95.749% */
     height: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 20px;
-    align-items: center;
+    gap: 40px;
+    align-items: flex-start; /* ensure all columns start at same top */
+    padding-top: 30px; /* small offset from top of rectangle */
 }
 .strip-col {
     flex: 1 1 0;
@@ -439,20 +450,41 @@ line-height: 32.5px; /* 95.749% */
     text-align: center;
     height: 100%;
 }
+.strip-col.text-col { /* ensure text blocks align their content to the top */
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
 .strip-col.image-col img {
     max-width: 100%;
-    max-height: 210px;
+    max-height: 174px;
     object-fit: contain;
+    margin-bottom: 40px;
 }
 .strip-col.text-col .strip-title {
-    font-family: "Inter";
-    color: var(--black);
-    margin: 0;
-    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 3px;
+color: #272042;
+font-family: "Inter";
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 50.346px; /* 228.847% */
 }
 .strip-col.text-col .strip-text {
     font-family: "Inter";
     color: var(--gray);
-    margin-top: 10px;
+    margin-top: 1px;
     font-size: 16px;
+}
+
+.dots{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center; /* center the dots horizontally */
+}
+.dots img{
+    display: block;
+    max-width: 200px;
+    height: auto;
 }
