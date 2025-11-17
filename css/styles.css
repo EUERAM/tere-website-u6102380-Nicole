@@ -72,8 +72,8 @@ align-self: stretch;
     margin-top: 150px;
 }
 .button {
-	font-size: 24px;
-	font-family: Inter;
+	font-size: 20px;
+	font-family: "Inter";
 	font-weight: 700;
 	font-style: normal;
 	text-decoration: none;
@@ -144,6 +144,21 @@ header a{
     line-height: 26px; /* 144.444% */
     text-decoration: none; /* treure subratllat */
 }
+
+/* Header Help Center button */
+header button {
+    width: 180px;
+    height: 50px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
 .green{
     color: var(--green);
 }
@@ -172,31 +187,30 @@ header a{
 
 .link-text {
     color: var(--white);
-    margin: 0;
     color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: "Inter";
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    line-height: 33px; /* 137.5% */
     text-align: left;
-    padding-left: 25px;
+    margin-top: 3px;
+    padding-left: 80px;
 }
 
 .link-form {
     display: flex;
     gap: 10px;
-    height: 67px;
-    padding: 38px 100px 29px 35px;
+    height: 65px;
+    padding: 38px 10px 29px 55px;
     align-items: left;
 }
 
 .link-input {
-    padding: 23px 80px;
+    padding: 23px 150px 20px 30px;
     border: none;
     border-radius: 5px;
     font-size: 17px;
-	justify-content: left;
+	justify-content:left;
 }
 
 .link-button {
@@ -213,7 +227,7 @@ header a{
     padding: 32px 28px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 /* Secció Download App */
