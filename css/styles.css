@@ -67,6 +67,10 @@ align-self: stretch;
     width:620px;
     margin:auto;
 }
+
+.how-it-works {
+    margin-top: 150px;
+}
 .button {
 	font-size: 24px;
 	font-family: Inter;
@@ -255,6 +259,9 @@ header a{
     height: auto;
     cursor: pointer;
 }
+.benefits {
+    margin-top: 200px;
+}
 
 
 
@@ -400,4 +407,52 @@ font-size: 33.943px;
 font-style: normal;
 font-weight: 400;
 line-height: 32.5px; /* 95.749% */
+}
+
+
+
+/* Strip section: full-width white rectangle with light-gray stroke */
+.strip-section {
+    margin-top: 200px;
+}
+.strip-rect {
+    width: 100%;
+    height: 250px;
+    background: var(--white);
+    border: 1px solid var(--light-gray);
+    box-sizing: border-box;
+}
+.strip-inner {
+    width: 1200px; /* align with main container */
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.strip-col {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.strip-col.image-col img {
+    max-width: 100%;
+    max-height: 210px;
+    object-fit: contain;
+}
+.strip-col.text-col .strip-title {
+    font-family: "Inter";
+    color: var(--black);
+    margin: 0;
+    font-size: 20px;
+}
+.strip-col.text-col .strip-text {
+    font-family: "Inter";
+    color: var(--gray);
+    margin-top: 10px;
+    font-size: 16px;
 }
