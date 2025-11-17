@@ -144,6 +144,9 @@ header a{
     line-height: 26px; /* 144.444% */
     text-decoration: none; /* treure subratllat */
 }
+.how-it-works .img-right{
+    margin-left: 300px;
+}
 
 /* Header logo styling */
 .logo {
@@ -195,18 +198,7 @@ header button {
     text-align: left;
     margin-left: 20px;
 }
-.step h3 {
-    margin: 2px;
-    text-align: right;
-}
-.step p {
-    text-align: right;
-    margin-top: 2px; /* 20px spacing from h3 */
-}
 
-.step-right .img-right{
-    margin-left: 100px;
-}
 
 
 /* Secció How Tere works */
