@@ -236,9 +236,7 @@ header button {
     font-weight: 400;
     text-align: left;
     margin-top: 3px;
-    padding-left: 40px;
-    /* allow the text block to grow and take more horizontal space */
-    flex: 1 1 0;
+    padding-left: 80px;
 }
 
 .link-form {
@@ -246,8 +244,6 @@ header button {
     gap: 10px;
     height: 65px;
     padding: 38px 10px 29px 55px;
-    /* keep the form a fixed width so the text can expand */
-    flex: 0 0 360px;
     align-items: left;
 }
 
